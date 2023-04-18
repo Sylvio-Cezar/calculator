@@ -114,5 +114,25 @@ public class Calculator {
 
         return value;
     }
+    
+    /* else if(matriz.length == 2){
+				// i == j
+				// i + j == length -1
+				
+				int diagPrin = 1;
+				int diagSecu = 1;
+				for(int i = 0; i < matriz.length; i ++) {
+					for(int j = 0; j < matriz[i].length; j++) {
+						if(i == j) {
+							diagPrin *= matriz[i][j];
+						}
+						
+						if(i+j == matriz.length - 1) {
+							diagSecu *= matriz[i][j];
+						}
+					}
+				}
+				
+				return diagPrin - diagSecu; */
 
 }
